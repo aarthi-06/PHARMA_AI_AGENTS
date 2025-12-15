@@ -1,12 +1,38 @@
 # agents.py
 from crewai import Agent
 from crewai.llm import LLM
-from tools import pubmed_search_pmids, pubmed_fetch_summaries, get_guideline_sources, news_rss_search
+from tools import pubmed_search_pmids, pubmed_fetch_summaries, get_guideline_sources, news_rss_search, nl_to_slots,assemble_context, validate_context_schema
+
 
 llm = LLM(
     model="gpt-4o-mini",
     provider="openai",
 )
+
+
+
+def master_agent():
+    """
+    Master Agent = Normalizer only.
+    Input: user one-liner string
+    Output: normalized context JSON (validated)
+    """
+    return Agent(
+        role="Master Agent (Normalizer)",
+        goal=(
+            "Transform user one-liner requests into a normalized context JSON that matches the schema, "
+            "by calling tools for extraction, enrichment, and schema validation."
+        ),
+        backstory=(
+            "You are a strict normalizer. You do not perform web research. "
+            "You only produce schema-valid JSON for downstream agents."
+        ),
+        tools=[ assemble_context, validate_context_schema,nl_to_slots],
+        allow_delegation=False,
+        verbose=True,
+    )
+
+
 
 def web_intelligence_agent():
     """
