@@ -1,0 +1,10 @@
+clinical_trials:
+  base_url: "https://clinicaltrials.gov/api/v2/studies"
+  timeout: 10
+  default_fields:
+    - NCTId
+    - Condition
+    - Phase
+    - OverallStatus
+    - LocationCountry
+    - LeadSponsorName

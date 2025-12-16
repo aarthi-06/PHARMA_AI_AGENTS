@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ report.report.title }}</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #222;
+        }
+
+        h1, h2, h3 {
+            color: #003366;
+        }
+
+        h1 {
+            font-size: 20pt;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+        }
+
+        h2 {
+            font-size: 15pt;
+            margin-top: 25px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        h3 {
+            font-size: 12pt;
+            margin-top: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 6px;
+            font-size: 10pt;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        ul {
+            margin-top: 5px;
+        }
+
+        .meta {
+            font-size: 9pt;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .warning {
+            color: #a94442;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>{{ report.report.title }}</h1>
+
+<div class="meta">
+    <div><strong>Report ID:</strong> {{ report.report.report_id }}</div>
+    <div><strong>Generated At:</strong> {{ report.report.generated_at }}</div>
+    <div><strong>Format:</strong> {{ report.report.format }}</div>
+</div>
+
+{# ================= EXECUTIVE SUMMARY ================= #}
+<h2>Executive Summary</h2>
+<ul>
+    {% for point in report.report.sections.executive_summary %}
+        <li>{{ point }}</li>
+    {% endfor %}
+</ul>
+
+{# ================= CLINICAL TRIALS ================= #}
+<h2>Clinical Trials</h2>
+
+<h3>Summary</h3>
+<ul>
+    <li>Active trials: {{ report.report.sections.clinical_trials.summary.active }}</li>
+    <li>Completed trials: {{ report.report.sections.clinical_trials.summary.completed }}</li>
+    <li>Phase distribution:
+        {% for phase, count in report.report.sections.clinical_trials.summary.phase_distribution.items() %}
+            Phase {{ phase }} ({{ count }})
+        {% endfor %}
+    </li>
+</ul>
+
+<h3>Highlights</h3>
+<ul>
+    {% for h in report.report.sections.clinical_trials.highlights %}
+        <li>{{ h }}</li>
+    {% endfor %}
+</ul>
+
+<h3>Top Trials</h3>
+<table>
+    <thead>
+        <tr>
+            <th>Trial ID</th>
+            <th>Title</th>
+            <th>Phase</th>
+            <th>Status</th>
+            <th>Locations</th>
+            <th>Start Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for t in report.report.sections.clinical_trials.top_trials %}
+        <tr>
+            <td>{{ t.trial_id }}</td>
+            <td>{{ t.title }}</td>
+            <td>{{ t.phase }}</td>
+            <td>{{ t.status }}</td>
+            <td>{{ t.locations | join(", ") }}</td>
+            <td>{{ t.start_date }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{# ================= GUIDELINES & LITERATURE ================= #}
+<h2>Guidelines and Literature</h2>
+
+<h3>Guidelines</h3>
+<ul>
+    {% for g in report.report.sections.guidelines_and_literature.guideline_points %}
+        <li>
+            <strong>{{ g.source }}:</strong>
+            {{ g.recommendation }}
+        </li>
+    {% endfor %}
+</ul>
+
+<h3>Publications</h3>
+<ul>
+    {% for p in report.report.sections.guidelines_and_literature.publication_points %}
+        <li>
+            <strong>PMID {{ p.pmid }} ({{ p.year }}):</strong>
+            {{ p.finding }}
+        </li>
+    {% endfor %}
+</ul>
+
+{# ================= REPURPOSING OPTIONS ================= #}
+<h2>Repurposing Options</h2>
+<ul>
+    {% for opt in report.report.sections.repurposing_options %}
+        <li>
+            <strong>{{ opt.option }}</strong><br>
+            Rationale: {{ opt.rationale }}<br>
+            Evidence: {{ opt.evidence | join(", ") }}
+        </li>
+    {% endfor %}
+</ul>
+
+{# ================= RISKS & GAPS ================= #}
+<h2>Risks and Gaps</h2>
+<ul>
+    {% for r in report.report.sections.risks_and_gaps %}
+        <li>{{ r }}</li>
+    {% endfor %}
+</ul>
+
+{# ================= REFERENCES ================= #}
+<h2>References</h2>
+<ul>
+    {% for ref in report.report.sections.references %}
+        <li>
+            <strong>{{ ref.type | capitalize }}:</strong>
+            {{ ref.label }} —
+            <a href="{{ ref.url }}">{{ ref.url }}</a>
+        </li>
+    {% endfor %}
+</ul>
+
+{# ================= WARNINGS ================= #}
+{% if report.report.warnings %}
+<h2>Warnings</h2>
+<ul class="warning">
+    {% for w in report.report.warnings %}
+        <li>{{ w }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+</body>
+</html>

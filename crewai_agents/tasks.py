@@ -257,7 +257,7 @@ def web_intelligence_task(agent, normalize_task: Task):
     )
 
 
-def master_compile_task(agent, normalize_task: Task, web_task: Task):
+def master_compile_task(agent, normalize_task: Task, web_task: Task, clinical_result: dict):
     """
     Task 3: Master takes context JSON + web JSON and returns final combined output.
     Output: ONLY JSON: {"context": {...}, "web": {...}}
@@ -275,6 +275,6 @@ def master_compile_task(agent, normalize_task: Task, web_task: Task):
             "- Return ONLY valid JSON. No markdown, no extra text."
         ),
         agent=agent,
-        context=[normalize_task, web_task],  # ✅ master gets both
+        context=[normalize_task, web_task, clinical_result],  # ✅ master gets both
         expected_output="Single JSON combining context and web sections.",
     )
