@@ -1,23 +1,23 @@
 {
   "report": {
-    "report_id": "REP-20251216-633fc9",
+    "report_id": "REP-20251216-0d003b",
     "title": "Remdesivir \u2013 COVID-19 \u2013 India (Repurposing Scan)",
-    "generated_at": "2025-12-16T11:51:39.871179",
+    "generated_at": "2025-12-16T15:02:16.783089",
     "format": "pdf",
     "sections": {
       "executive_summary": [
-        "Remdesivir is recognized and utilized in the treatment of COVID-19 with multiple publications from 2019 to 2024 indicating its clinical use, side effects, and treatment outcomes. Authoritative guidelines from WHO and NICE provide general disease management guidance. News sources note remdesivir's emergency approval, use guidelines, export bans, and legal issues in India during the COVID-19 pandemic."
+        "Remdesivir is included in both global and generic COVID-19 treatment guidelines, although disease-specific guideline details are limited in the sources retrieved. Recent peer-reviewed publications from 2019-2024 indicate ongoing clinical research and case reports on remdesivir's effectiveness and safety, including its use in patients with co-morbidities and possible cardiac side effects. News reports from India highlight regulatory actions such as restricted emergency use approval, export bans, clinical guidelines issuance, and issues around black marketing, reflecting the significant role and challenges of remdesivir use in COVID-19 management in the region."
       ],
       "clinical_trials": {
         "summary": {
-          "active": 4,
-          "completed": 1,
+          "active": 3,
+          "completed": 2,
           "phase_distribution": {
             "Observational": 1,
             "Phase 1": 0,
-            "Phase 2": 3,
-            "Phase 3": 0,
-            "Phase 4": 1
+            "Phase 2": 2,
+            "Phase 3": 1,
+            "Phase 4": 0
           }
         },
         "highlights": [
@@ -25,60 +25,59 @@
         ],
         "top_trials": [
           {
-            "trial_id": "NCT04854837",
-            "title": "Safety of Remdesivir Treatment in COVID-19 Patients Requiring Hemodialysis",
-            "phase": "Observational",
-            "status": "Completed",
-            "sponsor": "Semmelweis University",
+            "trial_id": "NCT04610541",
+            "title": "Open-label Study to Assess the Safety of REMdesivir-HU as Eligible Novel therapY for Moderate and Severe Covid-19 Patients",
+            "phase": "Phase 3",
+            "status": "Active",
+            "sponsor": "University of Pecs",
             "locations": [
               "Hungary"
             ],
-            "start_date": "2021-04-12"
+            "start_date": "2020-10-12"
           },
           {
-            "trial_id": "NCT04386447",
-            "title": "Phase II, Multicenter, Open-label, Rct With an Adaptive Design, to Assess Efficacy of Intravenous Administration of Oxytocin in Hospitalized Patients Affected by COVID-19",
+            "trial_id": "NCT04647695",
+            "title": "An Open-label Randomized Controlled Trial on Interferon \u03b2-1b and Remdesivir Combination Versus Remdesivir as Treatment for COVID-19 Infection",
             "phase": "Phase 2",
             "status": "Active",
-            "sponsor": "Azienda Ospedaliero-Universitaria di Parma",
+            "sponsor": "The University of Hong Kong",
             "locations": [
-              "Italy",
-              "France"
+              "Hong Kong"
             ],
-            "start_date": "2020-09-01"
+            "start_date": "2020-11-20"
           },
           {
-            "trial_id": "NCT04403477",
-            "title": "Convalescent Plasma Transfusion Therapy in Severe COVID-19 Patients- a Tolerability, Efficacy and Dose-response Phase II RCT",
+            "trial_id": "NCT04345419",
+            "title": "Remdesivir in COVID-19 Treatment: A Randomised Trial",
             "phase": "Phase 2",
-            "status": "Active",
-            "sponsor": "Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh",
+            "status": "Completed",
+            "sponsor": "Tanta University",
             "locations": [
-              "Bangladesh"
+              "Egypt"
             ],
-            "start_date": "2020-05-20"
+            "start_date": "2020-06-16"
           },
           {
-            "trial_id": "NCT04321993",
-            "title": "Treatment of Moderate to Severe Coronavirus Disease (COVID-19) in Hospitalized Patients",
-            "phase": "Phase 2",
-            "status": "Active",
-            "sponsor": "Lisa Barrett",
+            "trial_id": "NCT04582266",
+            "title": "Pharmacokinetics and Safety of Remdesivir for Treatment of COVID-19 in Pregnant and Non-Pregnant Women in the United States",
+            "phase": "Observational",
+            "status": "Completed",
+            "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
             "locations": [
-              "Canada"
+              "United States"
             ],
-            "start_date": "2020-04-17"
+            "start_date": "2021-03-31"
           },
           {
-            "trial_id": "NCT06792214",
-            "title": "Antiviral Strategies in the Prevention of Long-term Cardiovascular Outcomes Following COVID-19: The paxloviD/Remdesivir Effectiveness For the prEvention of loNg coviD (DEFEND) Clinical Trial",
-            "phase": "Phase 4",
+            "trial_id": "NCT04560231",
+            "title": "Is Remdesivir a Possible Therapeutic Option for SARS-CoV-2 : An Interventional Study",
+            "phase": "EARLY_Phase 1",
             "status": "Active",
-            "sponsor": "Mount Sinai Hospital, Canada",
+            "sponsor": "Lahore General Hospital",
             "locations": [
-              "Canada"
+              "Pakistan"
             ],
-            "start_date": "2025-01-03"
+            "start_date": "2020-06-01"
           }
         ]
       },
@@ -87,14 +86,14 @@
           {
             "source": "WHO Guidelines",
             "publisher": "World Health Organization",
-            "date": "2024-01-01",
+            "date": "",
             "recommendation": "Generic authoritative health guideline source (disease-specific guideline not mapped in MVP).",
             "url": "https://www.who.int/publications/guidelines"
           },
           {
             "source": "NICE Guidelines",
             "publisher": "National Institute for Health and Care Excellence (NICE)",
-            "date": "2024-01-01",
+            "date": "",
             "recommendation": "Generic authoritative guideline repository (disease-specific guidance not mapped in MVP).",
             "url": "https://www.nice.org.uk/guidance"
           }
@@ -105,21 +104,21 @@
             "title": "Successful Sequential Treatment From Remdesivir to Molnupiravir for Prolonged COVID-19 in a Patient With Follicular Lymphoma and Renal Pelvic Carcinoma: A Case Report.",
             "journal": "Cureus",
             "year": 2024,
-            "key_finding": "Title suggests a case report on sequential treatment involving remdesivir for prolonged COVID-19."
+            "key_finding": "Title suggests a case study on use of remdesivir followed by molnupiravir in prolonged COVID-19 treatment."
           },
           {
             "pmid": "39811032",
             "title": "Incidence of bradycardia with the use of remdesivir for coronavirus disease of 2019 and risk factor analysis.",
             "journal": "International journal of critical illness and injury science",
             "year": 2024,
-            "key_finding": "Title suggests study on incidence and risk factors of bradycardia associated with remdesivir use in COVID-19."
+            "key_finding": "Title suggests investigation of bradycardia incidence with remdesivir use in COVID-19 patients."
           },
           {
             "pmid": "39739156",
             "title": "Treatment pattern and clinical outcomes of remdesivir in hospitalized COVID-19 patients with severe chronic kidney disease: a database analysis of acute care hospitals in Japan.",
             "journal": "Clinical and experimental nephrology",
             "year": 2025,
-            "key_finding": "Title suggests analysis of remdesivir treatment patterns and outcomes in COVID-19 patients with severe kidney disease."
+            "key_finding": "Title suggests analysis of remdesivir treatment in COVID-19 patients with severe chronic kidney disease."
           }
         ],
         "news_signals": [
@@ -127,35 +126,35 @@
             "headline": "Black marketing Remdesivir in Covid: Two get two years in jail - Times of India",
             "publisher": "Times of India",
             "date": "2025-05-28",
-            "takeaway": "News on legal action against black marketing of Remdesivir during COVID-19 in India.",
+            "takeaway": "Black marketing remdesivir incidents during COVID-19 treatment reported with legal consequences.",
             "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaUNITURESlI0alNHb0lUOXg2ay1pMWgwN2pEcU5vMm1HRU90TWo0NmtiMlZ6NEUxQ0hKX2E2MGhNeWNlQWg2NjA3ZGRVakNfWTlDMlBiSkN6QldIclZXMmlVZjluMlV5N05ZYWtSZ2JiRXNIcVNDYVZ6MTc5M3U1YzFQYjVzd3pTTHkzdlk1bHM1ZXhDTGdFWUpvRnFUUEUtSHdKZnoxRXdyOEJ0bTd4NndKVGRFYXI2WDZYV3BaTHRveHFYTDlZVmpod3lZMnh00gHWAUFVX3lxTE9SVEZkVThmR3duZGxIejFIWGROQ2tibTh4UUlFZFhiNWFrSkNidkZDaWhUU0FpaEIxdC1fVHgweWZLaDV4SmtFRVcyQWhqMUMyaFpza25fQ09sLWRnWXlvRmxzc0h0QVkzbWJYSzRfelFXYlYzMFV0MXRmTmhiMVVQVFNEV29udlJwbFBIaC1VcnEtb0JwUC1LUmUzdWQ4NWVseWx4VXRuUmVVdEJNcjZLVHR1ZlB6M1k4cEVzZldsU1Z6N01XV0VsY2JiLXNMenRPRDJuNXc?oc=5"
           },
           {
             "headline": "Coronavirus: Pune Municipal Corporation Issues Guidelines for Use of Remdesivir in COVID-19 Patients - The Bridge Chronicle",
             "publisher": "The Bridge Chronicle",
             "date": "2025-05-29",
-            "takeaway": "Local guidelines issued in Pune, India for remdesivir use in COVID-19 patients.",
+            "takeaway": "Local guidelines issued for remdesivir use in COVID-19 patients in Pune, India.",
             "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkZIRTJWZXN1RElqS25TSkRid29pb3M4dlRGdU1Lbzd5TU51QUQwVGhUUlZQMkhQMDdma3Jxa2FxRW9mcWJPVmtkVXlDRWg5RmR6S3VfY01TSzhqaUJLcldXbldzcndlX0g4SmNxQVBOZGlYSFduaTJQLU9UMlR0QnBveHppUUZPR01xcVZ0a0RzclJpTWhrUGV0Nzl0NFhFYlHSAa8BQVVfeXFMTUlxYnQ5XzhoRkV5Q0QwcUNhUzRhSDRpOVNzb050UnRYaE9fWFVjalFraEhXSVZNaVJDeTl4RVdUYmk3X1h6UmU5MzJ5LVdvWVFPWkFLTFh1RnVucUtMSHBsMmdCTVRvcUJVUjdxdVQ4R0hHU1k0bVVaN01pbkpxRkxCdXJXX1EwbkktWEtTLXpaSEZNY0czRkloNFBSbmFPNFF6RThYb3ZuUzhoWUJ4TQ?oc=5"
           },
           {
             "headline": "What does the widespread use of Remdesivir in COVID-19 management in India and short supply of it teach us? - orfonline.org",
             "publisher": "orfonline.org",
             "date": "2021-05-06",
-            "takeaway": "Discussion on implications of widespread remdesivir use and supply issues during COVID-19 in India.",
+            "takeaway": "Article discusses challenges and lessons from remdesivir use and supply shortages in COVID-19 management in India.",
             "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT0x1WU9UOFFhMkhmN3NsS3ZzeHpTR3FGVmVNa2E3RnBGTjhHcG5Dc3hlTFNkYU5CQVVnbTFJNld4SWlzTkVKYU1LTEFjaFZ5Q0pscnFYMURBSENUQ19QLWhhdkluRnNoMGwtX1Jad3BaOVJzcXZuRk15QWh0R0QxMm1hSmZhR1dtVUR0U1FnVFh6MDRxTzVQVg?oc=5"
           },
           {
             "headline": "COVID digest: India bans export of remdesivir treatment drug - DW",
             "publisher": "DW",
             "date": "2021-04-11",
-            "takeaway": "India banned export of remdesivir during COVID-19 to maintain domestic supply.",
+            "takeaway": "India imposed export ban on remdesivir during COVID-19 to prioritize domestic use.",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeUc5MXhhUXh4OXhQbE5Ob1ROWEtscTdxU0xyYksxZml3c1hudWNwRmdieFVOU3oybnN5LWpiUUVpR05ad3QxNl9ua3JmdW5SOUN0Qkp6LTNrMkRKdFA0M1JTRVBQd0c5cGdNSktxX0VybnlaMWVFQkJiNG5Cb0dDQXFETDVGMFdkMEpQS0Y1cFctWWNXNUk5anR6bFVkMlI3UjVZOGxZaFd4dFXSAasBQVVfeXFMTlRZOUFsTWdyNVlueEdTdFZrc21KMENTbGNpQlBMZEgxc1Bydy15SnBUNldQVmxUZGFoaGVSQlo1VENOX2QwekVWeXNNSkoyc3BZSWpsM0ZTeE9uSG1Zb1A2UHJITEowSHNIQ0xIVDVSbXg1ZU1MSjhFVzZwRzE0VHI5SjNfWUU2YWUzejZTZVhIZi1raDNBTUNGdFdxX2hVVUdqdzVQME5MdDZj?oc=5"
           },
           {
             "headline": "India approves remdesivir for restricted emergency use in COVID-19 patients - European Pharmaceutical Review",
             "publisher": "European Pharmaceutical Review",
             "date": "2020-07-07",
-            "takeaway": "India approved remdesivir for restricted emergency use during the COVID-19 pandemic.",
+            "takeaway": "India approved remdesivir for restricted emergency use in COVID-19 treatment.",
             "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVzk1UW5tNlRhb3FhNkUxZU41bEFxeWVidUlyVUNmUjBpV3hhYUliSERXS0VDTTU2cmZGNEhsVndkejZ4Q3F3ZjFSN2dmLU95TGxJWXhITkRmelBmNTRBWEZ2aElEcEdzRGpfd25lbEpIZGxtZ2NPVjFSOXFUMkJIN2oydm9nMTlYUlJQb2xsaXVaS0t4YzRoRjBKbHJQclVEMko4dk1pNFIwRnNIeHpvMnhTWFhubE9zV1Y0TDFWeGlrUWpoTElZeER4SWFQdw?oc=5"
           }
         ]
@@ -163,7 +162,7 @@
       "repurposing_options": [
         {
           "option": "Targeted subgroup usage",
-          "rationale": "Remdesivir is recognized and utilized in the treatment of COVID-19 with multiple publications from 2019 to 2024 indicating its clinical use, side effects, and treatment outcomes. Authoritative guidelines from WHO and NICE provide general disease management guidance. News sources note remdesivir's emergency approval, use guidelines, export bans, and legal issues in India during the COVID-19 pandemic.",
+          "rationale": "Remdesivir is included in both global and generic COVID-19 treatment guidelines, although disease-specific guideline details are limited in the sources retrieved. Recent peer-reviewed publications from 2019-2024 indicate ongoing clinical research and case reports on remdesivir's effectiveness and safety, including its use in patients with co-morbidities and possible cardiac side effects. News reports from India highlight regulatory actions such as restricted emergency use approval, export bans, clinical guidelines issuance, and issues around black marketing, reflecting the significant role and challenges of remdesivir use in COVID-19 management in the region.",
           "evidence": [
             "WHO Guidelines",
             "NICE Guidelines"
@@ -202,28 +201,28 @@
         },
         {
           "type": "trial",
-          "label": "NCT04854837",
-          "url": "https://clinicaltrials.gov/study/NCT04854837"
+          "label": "NCT04610541",
+          "url": "https://clinicaltrials.gov/study/NCT04610541"
         },
         {
           "type": "trial",
-          "label": "NCT04386447",
-          "url": "https://clinicaltrials.gov/study/NCT04386447"
+          "label": "NCT04647695",
+          "url": "https://clinicaltrials.gov/study/NCT04647695"
         },
         {
           "type": "trial",
-          "label": "NCT04403477",
-          "url": "https://clinicaltrials.gov/study/NCT04403477"
+          "label": "NCT04345419",
+          "url": "https://clinicaltrials.gov/study/NCT04345419"
         },
         {
           "type": "trial",
-          "label": "NCT04321993",
-          "url": "https://clinicaltrials.gov/study/NCT04321993"
+          "label": "NCT04582266",
+          "url": "https://clinicaltrials.gov/study/NCT04582266"
         },
         {
           "type": "trial",
-          "label": "NCT06792214",
-          "url": "https://clinicaltrials.gov/study/NCT06792214"
+          "label": "NCT04560231",
+          "url": "https://clinicaltrials.gov/study/NCT04560231"
         }
       ]
     },

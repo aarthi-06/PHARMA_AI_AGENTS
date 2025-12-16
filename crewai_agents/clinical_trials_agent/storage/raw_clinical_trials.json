@@ -1,79 +1,78 @@
 {
-  "timestamp": "2025-12-16T11:51:28.862719",
+  "timestamp": "2025-12-16T15:01:57.515463",
   "data": {
     "trials": {
       "summary": {
-        "active": 4,
-        "completed": 1,
+        "active": 3,
+        "completed": 2,
         "phase_distribution": {
           "Observational": 1,
           "Phase 1": 0,
-          "Phase 2": 3,
-          "Phase 3": 0,
-          "Phase 4": 1
+          "Phase 2": 2,
+          "Phase 3": 1,
+          "Phase 4": 0
         }
       },
       "details": [
         {
-          "trial_id": "NCT04854837",
-          "title": "Safety of Remdesivir Treatment in COVID-19 Patients Requiring Hemodialysis",
-          "status": "Completed",
-          "phase": "Observational",
-          "sponsor": "Semmelweis University",
+          "trial_id": "NCT04610541",
+          "title": "Open-label Study to Assess the Safety of REMdesivir-HU as Eligible Novel therapY for Moderate and Severe Covid-19 Patients",
+          "status": "Active",
+          "phase": "Phase 3",
+          "sponsor": "University of Pecs",
           "locations": [
             "Hungary"
           ],
-          "start_date": "2021-04-12",
-          "end_date": "2022-09-30"
+          "start_date": "2020-10-12",
+          "end_date": "2021-11-30"
         },
         {
-          "trial_id": "NCT04386447",
-          "title": "Phase II, Multicenter, Open-label, Rct With an Adaptive Design, to Assess Efficacy of Intravenous Administration of Oxytocin in Hospitalized Patients Affected by COVID-19",
+          "trial_id": "NCT04647695",
+          "title": "An Open-label Randomized Controlled Trial on Interferon \u03b2-1b and Remdesivir Combination Versus Remdesivir as Treatment for COVID-19 Infection",
           "status": "Active",
           "phase": "Phase 2",
-          "sponsor": "Azienda Ospedaliero-Universitaria di Parma",
+          "sponsor": "The University of Hong Kong",
           "locations": [
-            "Italy",
-            "France"
+            "Hong Kong"
           ],
-          "start_date": "2020-09-01",
-          "end_date": "2020-12-31"
+          "start_date": "2020-11-20",
+          "end_date": "2021-09-30"
         },
         {
-          "trial_id": "NCT04403477",
-          "title": "Convalescent Plasma Transfusion Therapy in Severe COVID-19 Patients- a Tolerability, Efficacy and Dose-response Phase II RCT",
-          "status": "Active",
+          "trial_id": "NCT04345419",
+          "title": "Remdesivir in COVID-19 Treatment: A Randomised Trial",
+          "status": "Completed",
           "phase": "Phase 2",
-          "sponsor": "Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh",
+          "sponsor": "Tanta University",
           "locations": [
-            "Bangladesh"
+            "Egypt"
           ],
-          "start_date": "2020-05-20",
-          "end_date": "2020-10-30"
+          "start_date": "2020-06-16",
+          "end_date": "2020-12-01"
         },
         {
-          "trial_id": "NCT04321993",
-          "title": "Treatment of Moderate to Severe Coronavirus Disease (COVID-19) in Hospitalized Patients",
-          "status": "Active",
-          "phase": "Phase 2",
-          "sponsor": "Lisa Barrett",
+          "trial_id": "NCT04582266",
+          "title": "Pharmacokinetics and Safety of Remdesivir for Treatment of COVID-19 in Pregnant and Non-Pregnant Women in the United States",
+          "status": "Completed",
+          "phase": "Observational",
+          "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
           "locations": [
-            "Canada"
+            "United States"
           ],
-          "start_date": "2020-04-17",
-          "end_date": "2024-04"
+          "start_date": "2021-03-31",
+          "end_date": "2022-04-13"
         },
         {
-          "trial_id": "NCT06792214",
-          "title": "Antiviral Strategies in the Prevention of Long-term Cardiovascular Outcomes Following COVID-19: The paxloviD/Remdesivir Effectiveness For the prEvention of loNg coviD (DEFEND) Clinical Trial",
+          "trial_id": "NCT04560231",
+          "title": "Is Remdesivir a Possible Therapeutic Option for SARS-CoV-2 : An Interventional Study",
           "status": "Active",
-          "phase": "Phase 4",
-          "sponsor": "Mount Sinai Hospital, Canada",
+          "phase": "EARLY_Phase 1",
+          "sponsor": "Lahore General Hospital",
           "locations": [
-            "Canada"
+            "Pakistan"
           ],
-          "start_date": "2025-01-03",
-          "end_date": "2027-01"
+          "start_date": "2020-06-01",
+          "end_date": "2020-11-30"
         }
       ],
       "notes": "Parsed deterministically from ClinicalTrials.gov"
