@@ -1,0 +1,6 @@
+crewai 
+dotenv
+weasyprint
+fastapi 
+uvicorn
+requests

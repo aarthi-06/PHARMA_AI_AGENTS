@@ -1,12 +1,12 @@
 {
   "report": {
-    "report_id": "REP-20251216-633fc9",
+    "report_id": "REP-20251216-f618f4",
     "title": "Remdesivir \u2013 COVID-19 \u2013 India (Repurposing Scan)",
-    "generated_at": "2025-12-16T11:51:39.871179",
+    "generated_at": "2025-12-16T12:41:17.409491",
     "format": "pdf",
     "sections": {
       "executive_summary": [
-        "Remdesivir is recognized and utilized in the treatment of COVID-19 with multiple publications from 2019 to 2024 indicating its clinical use, side effects, and treatment outcomes. Authoritative guidelines from WHO and NICE provide general disease management guidance. News sources note remdesivir's emergency approval, use guidelines, export bans, and legal issues in India during the COVID-19 pandemic."
+        "Remdesivir is included in authoritative COVID-19 treatment guidelines from major organizations such as WHO and NICE, though no specific Indian national guideline was found. Recent publications cover its clinical use, safety signals like bradycardia, and sequence treatment in complex cases. News from India highlights regulatory approvals, guidelines issued by local health authorities, black marketing issues, export restrictions, and supply challenges for remdesivir during the COVID-19 pandemic. Overall, evidence and real-world use support remdesivir as part of COVID-19 management in India, with ongoing safety and effectiveness monitoring."
       ],
       "clinical_trials": {
         "summary": {
@@ -87,39 +87,88 @@
           {
             "source": "WHO Guidelines",
             "publisher": "World Health Organization",
-            "date": "2024-01-01",
+            "date": "",
             "recommendation": "Generic authoritative health guideline source (disease-specific guideline not mapped in MVP).",
             "url": "https://www.who.int/publications/guidelines"
           },
           {
             "source": "NICE Guidelines",
             "publisher": "National Institute for Health and Care Excellence (NICE)",
-            "date": "2024-01-01",
+            "date": "",
             "recommendation": "Generic authoritative guideline repository (disease-specific guidance not mapped in MVP).",
             "url": "https://www.nice.org.uk/guidance"
           }
         ],
         "publication_points": [
           {
+            "pmid": "40255942",
+            "title": "Virtual screening of natural products as potential inhibitors of SARS-CoV-2 main protease, RNA-dependent RNA polymerase (RdRp) and Spike Protein: Database design, molecular docking and molecular dynamic study.",
+            "journal": "Avicenna journal of phytomedicine",
+            "year": 2024,
+            "key_finding": "Title suggests investigation of natural products targeting SARS-CoV-2 including RNA-dependent RNA polymerase."
+          },
+          {
+            "pmid": "40161930",
+            "title": "Effectiveness of dolutegravir in moderate severity COVID-19 patients: A single-center, randomized, double-blind, placebo-controlled trial.",
+            "journal": "BioImpacts : BI",
+            "year": 2025,
+            "key_finding": "Title suggests study of dolutegravir effectiveness in moderate COVID-19."
+          },
+          {
+            "pmid": "40057834",
+            "title": "Clinical characterisation, treatment outcomes, and case fatality risk of patients with different SARS-CoV-2 variants in Bangladesh.",
+            "journal": "Journal of global health",
+            "year": 2024,
+            "key_finding": "Title indicates clinical characterization and outcomes of SARS-CoV-2 variants."
+          },
+          {
             "pmid": "39816292",
             "title": "Successful Sequential Treatment From Remdesivir to Molnupiravir for Prolonged COVID-19 in a Patient With Follicular Lymphoma and Renal Pelvic Carcinoma: A Case Report.",
             "journal": "Cureus",
             "year": 2024,
-            "key_finding": "Title suggests a case report on sequential treatment involving remdesivir for prolonged COVID-19."
+            "key_finding": "Title suggests successful sequential treatment using remdesivir and molnupiravir in a complex COVID-19 case."
           },
           {
             "pmid": "39811032",
             "title": "Incidence of bradycardia with the use of remdesivir for coronavirus disease of 2019 and risk factor analysis.",
             "journal": "International journal of critical illness and injury science",
             "year": 2024,
-            "key_finding": "Title suggests study on incidence and risk factors of bradycardia associated with remdesivir use in COVID-19."
+            "key_finding": "Title suggests analysis of bradycardia incidence linked to remdesivir use in COVID-19."
+          },
+          {
+            "pmid": "39772165",
+            "title": "Newly Proposed Dose of Daclatasvir to Prevent Lethal SARS-CoV-2 Infection in Human Transgenic ACE-2 Mice.",
+            "journal": "Viruses",
+            "year": 2024,
+            "key_finding": "Title suggests exploration of daclatasvir dosing to prevent SARS-CoV-2 infection in mice model."
+          },
+          {
+            "pmid": "39756947",
+            "title": "A Case of X-Linked Agammaglobulinemia and COVID-19 in a Japanese Infant.",
+            "journal": "Journal of Nippon Medical School = Nippon Ika Daigaku zasshi",
+            "year": 2024,
+            "key_finding": "Title reports a clinical case of X-linked agammaglobulinemia and COVID-19 in infant."
+          },
+          {
+            "pmid": "39743047",
+            "title": "Design, synthesis, and biological evaluation of novel 2'-deoxy-2'-spirooxetane-7-deazapurine nucleoside analogs as anti-SARS-CoV-2 agents.",
+            "journal": "Antiviral research",
+            "year": 2025,
+            "key_finding": "Title suggests novel nucleoside analogs evaluated as anti-SARS-CoV-2 agents."
           },
           {
             "pmid": "39739156",
             "title": "Treatment pattern and clinical outcomes of remdesivir in hospitalized COVID-19 patients with severe chronic kidney disease: a database analysis of acute care hospitals in Japan.",
             "journal": "Clinical and experimental nephrology",
             "year": 2025,
-            "key_finding": "Title suggests analysis of remdesivir treatment patterns and outcomes in COVID-19 patients with severe kidney disease."
+            "key_finding": "Title suggests investigation of remdesivir treatment patterns and outcomes in COVID-19 patients with severe kidney disease."
+          },
+          {
+            "pmid": "39737903",
+            "title": "Antibodies to the RBD of SARS-CoV-2 spike mediate productive infection of primary human macrophages.",
+            "journal": "Nature communications",
+            "year": 2024,
+            "key_finding": "Title suggests role of antibodies to SARS-CoV-2 spike RBD in infection of human macrophages."
           }
         ],
         "news_signals": [
@@ -127,35 +176,35 @@
             "headline": "Black marketing Remdesivir in Covid: Two get two years in jail - Times of India",
             "publisher": "Times of India",
             "date": "2025-05-28",
-            "takeaway": "News on legal action against black marketing of Remdesivir during COVID-19 in India.",
+            "takeaway": "Reports a legal case in India involving black marketing of Remdesivir during the Covid pandemic.",
             "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaUNITURESlI0alNHb0lUOXg2ay1pMWgwN2pEcU5vMm1HRU90TWo0NmtiMlZ6NEUxQ0hKX2E2MGhNeWNlQWg2NjA3ZGRVakNfWTlDMlBiSkN6QldIclZXMmlVZjluMlV5N05ZYWtSZ2JiRXNIcVNDYVZ6MTc5M3U1YzFQYjVzd3pTTHkzdlk1bHM1ZXhDTGdFWUpvRnFUUEUtSHdKZnoxRXdyOEJ0bTd4NndKVGRFYXI2WDZYV3BaTHRveHFYTDlZVmpod3lZMnh00gHWAUFVX3lxTE9SVEZkVThmR3duZGxIejFIWGROQ2tibTh4UUlFZFhiNWFrSkNidkZDaWhUU0FpaEIxdC1fVHgweWZLaDV4SmtFRVcyQWhqMUMyaFpza25fQ09sLWRnWXlvRmxzc0h0QVkzbWJYSzRfelFXYlYzMFV0MXRmTmhiMVVQVFNEV29udlJwbFBIaC1VcnEtb0JwUC1LUmUzdWQ4NWVseWx4VXRuUmVVdEJNcjZLVHR1ZlB6M1k4cEVzZldsU1Z6N01XV0VsY2JiLXNMenRPRDJuNXc?oc=5"
           },
           {
             "headline": "Coronavirus: Pune Municipal Corporation Issues Guidelines for Use of Remdesivir in COVID-19 Patients - The Bridge Chronicle",
             "publisher": "The Bridge Chronicle",
             "date": "2025-05-29",
-            "takeaway": "Local guidelines issued in Pune, India for remdesivir use in COVID-19 patients.",
+            "takeaway": "Local government in Pune, India issues guidelines for remdesivir use in COVID-19 patients.",
             "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORkZIRTJWZXN1RElqS25TSkRid29pb3M4dlRGdU1Lbzd5TU51QUQwVGhUUlZQMkhQMDdma3Jxa2FxRW9mcWJPVmtkVXlDRWg5RmR6S3VfY01TSzhqaUJLcldXbldzcndlX0g4SmNxQVBOZGlYSFduaTJQLU9UMlR0QnBveHppUUZPR01xcVZ0a0RzclJpTWhrUGV0Nzl0NFhFYlHSAa8BQVVfeXFMTUlxYnQ5XzhoRkV5Q0QwcUNhUzRhSDRpOVNzb050UnRYaE9fWFVjalFraEhXSVZNaVJDeTl4RVdUYmk3X1h6UmU5MzJ5LVdvWVFPWkFLTFh1RnVucUtMSHBsMmdCTVRvcUJVUjdxdVQ4R0hHU1k0bVVaN01pbkpxRkxCdXJXX1EwbkktWEtTLXpaSEZNY0czRkloNFBSbmFPNFF6RThYb3ZuUzhoWUJ4TQ?oc=5"
           },
           {
             "headline": "What does the widespread use of Remdesivir in COVID-19 management in India and short supply of it teach us? - orfonline.org",
             "publisher": "orfonline.org",
             "date": "2021-05-06",
-            "takeaway": "Discussion on implications of widespread remdesivir use and supply issues during COVID-19 in India.",
+            "takeaway": "Discusses implications of remdesivir's widespread use and shortage during COVID-19 management in India.",
             "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT0x1WU9UOFFhMkhmN3NsS3ZzeHpTR3FGVmVNa2E3RnBGTjhHcG5Dc3hlTFNkYU5CQVVnbTFJNld4SWlzTkVKYU1LTEFjaFZ5Q0pscnFYMURBSENUQ19QLWhhdkluRnNoMGwtX1Jad3BaOVJzcXZuRk15QWh0R0QxMm1hSmZhR1dtVUR0U1FnVFh6MDRxTzVQVg?oc=5"
           },
           {
-            "headline": "COVID digest: India bans export of remdesivir treatment drug - DW",
-            "publisher": "DW",
+            "headline": "COVID digest: India bans export of remdesivir treatment drug - dw.com",
+            "publisher": "dw.com",
             "date": "2021-04-11",
-            "takeaway": "India banned export of remdesivir during COVID-19 to maintain domestic supply.",
+            "takeaway": "India banned export of remdesivir during COVID-19 pandemic to ensure local availability.",
             "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeUc5MXhhUXh4OXhQbE5Ob1ROWEtscTdxU0xyYksxZml3c1hudWNwRmdieFVOU3oybnN5LWpiUUVpR05ad3QxNl9ua3JmdW5SOUN0Qkp6LTNrMkRKdFA0M1JTRVBQd0c5cGdNSktxX0VybnlaMWVFQkJiNG5Cb0dDQXFETDVGMFdkMEpQS0Y1cFctWWNXNUk5anR6bFVkMlI3UjVZOGxZaFd4dFXSAasBQVVfeXFMTlRZOUFsTWdyNVlueEdTdFZrc21KMENTbGNpQlBMZEgxc1Bydy15SnBUNldQVmxUZGFoaGVSQlo1VENOX2QwekVWeXNNSkoyc3BZSWpsM0ZTeE9uSG1Zb1A2UHJITEowSHNIQ0xIVDVSbXg1ZU1MSjhFVzZwRzE0VHI5SjNfWUU2YWUzejZTZVhIZi1raDNBTUNGdFdxX2hVVUdqdzVQME5MdDZj?oc=5"
           },
           {
             "headline": "India approves remdesivir for restricted emergency use in COVID-19 patients - European Pharmaceutical Review",
             "publisher": "European Pharmaceutical Review",
             "date": "2020-07-07",
-            "takeaway": "India approved remdesivir for restricted emergency use during the COVID-19 pandemic.",
+            "takeaway": "India approved remdesivir for restricted emergency use in COVID-19 patients during early pandemic.",
             "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVzk1UW5tNlRhb3FhNkUxZU41bEFxeWVidUlyVUNmUjBpV3hhYUliSERXS0VDTTU2cmZGNEhsVndkejZ4Q3F3ZjFSN2dmLU95TGxJWXhITkRmelBmNTRBWEZ2aElEcEdzRGpfd25lbEpIZGxtZ2NPVjFSOXFUMkJIN2oydm9nMTlYUlJQb2xsaXVaS0t4YzRoRjBKbHJQclVEMko4dk1pNFIwRnNIeHpvMnhTWFhubE9zV1Y0TDFWeGlrUWpoTElZeER4SWFQdw?oc=5"
           }
         ]
@@ -163,7 +212,7 @@
       "repurposing_options": [
         {
           "option": "Targeted subgroup usage",
-          "rationale": "Remdesivir is recognized and utilized in the treatment of COVID-19 with multiple publications from 2019 to 2024 indicating its clinical use, side effects, and treatment outcomes. Authoritative guidelines from WHO and NICE provide general disease management guidance. News sources note remdesivir's emergency approval, use guidelines, export bans, and legal issues in India during the COVID-19 pandemic.",
+          "rationale": "Remdesivir is included in authoritative COVID-19 treatment guidelines from major organizations such as WHO and NICE, though no specific Indian national guideline was found. Recent publications cover its clinical use, safety signals like bradycardia, and sequence treatment in complex cases. News from India highlights regulatory approvals, guidelines issued by local health authorities, black marketing issues, export restrictions, and supply challenges for remdesivir during the COVID-19 pandemic. Overall, evidence and real-world use support remdesivir as part of COVID-19 management in India, with ongoing safety and effectiveness monitoring.",
           "evidence": [
             "WHO Guidelines",
             "NICE Guidelines"
@@ -187,6 +236,21 @@
         },
         {
           "type": "publication",
+          "label": "PMID:40255942",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40255942/"
+        },
+        {
+          "type": "publication",
+          "label": "PMID:40161930",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40161930/"
+        },
+        {
+          "type": "publication",
+          "label": "PMID:40057834",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40057834/"
+        },
+        {
+          "type": "publication",
           "label": "PMID:39816292",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39816292/"
         },
@@ -197,8 +261,28 @@
         },
         {
           "type": "publication",
+          "label": "PMID:39772165",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39772165/"
+        },
+        {
+          "type": "publication",
+          "label": "PMID:39756947",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39756947/"
+        },
+        {
+          "type": "publication",
+          "label": "PMID:39743047",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39743047/"
+        },
+        {
+          "type": "publication",
           "label": "PMID:39739156",
           "url": "https://pubmed.ncbi.nlm.nih.gov/39739156/"
+        },
+        {
+          "type": "publication",
+          "label": "PMID:39737903",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39737903/"
         },
         {
           "type": "trial",
