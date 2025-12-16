@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "properties": {
+    "trials": {
+      "type": "object",
+      "properties": {
+        "summary": {
+          "type": "object",
+          "properties": {
+            "active": { "type": "number" },
+            "completed": { "type": "number" },
+            "phase_distribution": {
+              "type": "object",
+              "properties": {
+                "I": { "type": "number" },
+                "II": { "type": "number" },
+                "III": { "type": "number" }
+              },
+              "required": ["I", "II", "III"]
+            }
+          },
+          "required": ["active", "completed", "phase_distribution"]
+        },
+        "details": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "trial_id": { "type": "string" },
+              "title": { "type": "string" },
+              "phase": { "type": "string" },
+              "status": { "type": "string" },
+              "sponsor": { "type": "string" },
+              "locations": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "start_date": {
+                "type": "string",
+                "format": "date"
+              }
+            },
+            "required": [
+              "trial_id",
+              "title",
+              "phase",
+              "status",
+              "sponsor",
+              "locations",
+              "start_date"
+            ]
+          }
+        },
+        "notes": { "type": "string" }
+      },
+      "required": ["summary", "details", "notes"]
+    }
+  },
+  "required": ["trials"]
+}
