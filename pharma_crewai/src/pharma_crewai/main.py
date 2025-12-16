@@ -3,7 +3,7 @@ import sys
 import warnings
 
 from datetime import datetime
-
+from crewai import Agent, Task, Crew
 from pharma_crewai.crew import PharmaCrewai
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")

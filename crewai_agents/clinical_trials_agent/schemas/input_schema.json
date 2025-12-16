@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+    "context": {
+      "type": "object",
+      "properties": {
+        "molecule": {
+          "type": "object",
+          "properties": {
+            "inn": {
+              "type": "string",
+              "description": "International Nonproprietary Name of the drug"
+            }
+          },
+          "required": ["inn"]
+        },
+        "indication": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Disease or medical condition"
+            }
+          },
+          "required": ["name"]
+        },
+        "region": {
+          "type": "string",
+          "description": "Geographical scope of trials (e.g., Global, India)"
+        },
+        "phase": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["I", "II", "III"]
+          }
+        }
+      },
+      "required": ["molecule", "indication", "region", "phase"]
+    }
+  },
+  "required": ["context"]
+}

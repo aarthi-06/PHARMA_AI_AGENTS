@@ -1,0 +1,82 @@
+{
+  "timestamp": "2025-12-16T11:51:28.862719",
+  "data": {
+    "trials": {
+      "summary": {
+        "active": 4,
+        "completed": 1,
+        "phase_distribution": {
+          "Observational": 1,
+          "Phase 1": 0,
+          "Phase 2": 3,
+          "Phase 3": 0,
+          "Phase 4": 1
+        }
+      },
+      "details": [
+        {
+          "trial_id": "NCT04854837",
+          "title": "Safety of Remdesivir Treatment in COVID-19 Patients Requiring Hemodialysis",
+          "status": "Completed",
+          "phase": "Observational",
+          "sponsor": "Semmelweis University",
+          "locations": [
+            "Hungary"
+          ],
+          "start_date": "2021-04-12",
+          "end_date": "2022-09-30"
+        },
+        {
+          "trial_id": "NCT04386447",
+          "title": "Phase II, Multicenter, Open-label, Rct With an Adaptive Design, to Assess Efficacy of Intravenous Administration of Oxytocin in Hospitalized Patients Affected by COVID-19",
+          "status": "Active",
+          "phase": "Phase 2",
+          "sponsor": "Azienda Ospedaliero-Universitaria di Parma",
+          "locations": [
+            "Italy",
+            "France"
+          ],
+          "start_date": "2020-09-01",
+          "end_date": "2020-12-31"
+        },
+        {
+          "trial_id": "NCT04403477",
+          "title": "Convalescent Plasma Transfusion Therapy in Severe COVID-19 Patients- a Tolerability, Efficacy and Dose-response Phase II RCT",
+          "status": "Active",
+          "phase": "Phase 2",
+          "sponsor": "Bangabandhu Sheikh Mujib Medical University, Dhaka, Bangladesh",
+          "locations": [
+            "Bangladesh"
+          ],
+          "start_date": "2020-05-20",
+          "end_date": "2020-10-30"
+        },
+        {
+          "trial_id": "NCT04321993",
+          "title": "Treatment of Moderate to Severe Coronavirus Disease (COVID-19) in Hospitalized Patients",
+          "status": "Active",
+          "phase": "Phase 2",
+          "sponsor": "Lisa Barrett",
+          "locations": [
+            "Canada"
+          ],
+          "start_date": "2020-04-17",
+          "end_date": "2024-04"
+        },
+        {
+          "trial_id": "NCT06792214",
+          "title": "Antiviral Strategies in the Prevention of Long-term Cardiovascular Outcomes Following COVID-19: The paxloviD/Remdesivir Effectiveness For the prEvention of loNg coviD (DEFEND) Clinical Trial",
+          "status": "Active",
+          "phase": "Phase 4",
+          "sponsor": "Mount Sinai Hospital, Canada",
+          "locations": [
+            "Canada"
+          ],
+          "start_date": "2025-01-03",
+          "end_date": "2027-01"
+        }
+      ],
+      "notes": "Parsed deterministically from ClinicalTrials.gov"
+    }
+  }
+}

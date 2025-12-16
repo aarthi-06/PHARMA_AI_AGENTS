@@ -1,0 +1,14 @@
+task_name: clinical_trials_analysis
+
+description: >
+    You are given clinical trial data from ClinicalTrials.gov.
+    Your task is to summarize and analyze the data for the given drug and disease.
+    Use ONLY the provided data.
+    DO NOT invent trial IDs, drugs, or statistics.
+    If data is missing, say "Not available".
+
+expected_output: >
+  Return ONLY valid JSON with:
+  - trials.summary (active, completed, phase_distribution)
+  - trials.details (trial_id, title, phase, status, sponsor, locations, start_date)
+  - trials.notes
