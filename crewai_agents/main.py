@@ -21,10 +21,29 @@ def task_to_dict(task):
     return task.model_dump()
 
 
+# def input_parser_for_clinical_trials_agent(inp: dict) -> dict:
+#     if "context" not in inp:
+#       inp = {"context":inp}
+    
+#     return {
+#         "molecule": {
+#             "inn": inp["context"]["molecule"]["primary"]["inn"]
+#         },
+#         "indication": {
+#             "name": inp["context"]["indication"]["name"]
+#         },
+#         "region": inp["context"]["region"],
+#         "phase": ["I", "II", "III"]
+#     }
+
+
 def input_parser_for_clinical_trials_agent(inp: dict) -> dict:
     if "context" not in inp:
       inp = {"context":inp}
     
+    if "raw" in inp:
+        inp = {"context": inp["raw"]}
+   
     return {
         "molecule": {
             "inn": inp["context"]["molecule"]["primary"]["inn"]
@@ -35,6 +54,7 @@ def input_parser_for_clinical_trials_agent(inp: dict) -> dict:
         "region": inp["context"]["region"],
         "phase": ["I", "II", "III"]
     }
+    
 
 def crew_output_to_dict(crew_output):
     if crew_output.json_dict:
