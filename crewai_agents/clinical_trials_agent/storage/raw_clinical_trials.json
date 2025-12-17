@@ -1,81 +1,78 @@
 {
-  "timestamp": "2025-12-17T11:23:39.311188",
+  "timestamp": "2025-12-17T11:52:55.904986",
   "data": {
     "trials": {
       "summary": {
-        "active": 4,
-        "completed": 1,
+        "active": 3,
+        "completed": 2,
         "phase_distribution": {
-          "Observational": 0,
+          "Observational": 1,
           "Phase 1": 0,
-          "Phase 2": 0,
-          "Phase 3": 2,
-          "Phase 4": 1
+          "Phase 2": 2,
+          "Phase 3": 1,
+          "Phase 4": 0
         }
       },
       "details": [
         {
-          "trial_id": "NCT04715113",
-          "title": "Hemodynamic Effects of Acute Normobaric Hypoxia During Exercise in Patients With Pulmonary Hypertension: Single-center Randomized Controlled Trial",
-          "status": "Completed",
-          "phase": "NA",
-          "sponsor": "University of Zurich",
-          "locations": [
-            "Switzerland"
-          ],
-          "start_date": "2021-02-01",
-          "end_date": "2023-05-31"
-        },
-        {
-          "trial_id": "NCT03460470",
-          "title": "Sildenafil in US Heart Failure Patients (SilHF-US)",
+          "trial_id": "NCT04610541",
+          "title": "Open-label Study to Assess the Safety of REMdesivir-HU as Eligible Novel therapY for Moderate and Severe Covid-19 Patients",
           "status": "Active",
           "phase": "Phase 3",
-          "sponsor": "Hartford Hospital",
+          "sponsor": "University of Pecs",
+          "locations": [
+            "Hungary"
+          ],
+          "start_date": "2020-10-12",
+          "end_date": "2021-11-30"
+        },
+        {
+          "trial_id": "NCT04647695",
+          "title": "An Open-label Randomized Controlled Trial on Interferon \u03b2-1b and Remdesivir Combination Versus Remdesivir as Treatment for COVID-19 Infection",
+          "status": "Active",
+          "phase": "Phase 2",
+          "sponsor": "The University of Hong Kong",
+          "locations": [
+            "Hong Kong"
+          ],
+          "start_date": "2020-11-20",
+          "end_date": "2021-09-30"
+        },
+        {
+          "trial_id": "NCT04345419",
+          "title": "Remdesivir in COVID-19 Treatment: A Randomised Trial",
+          "status": "Completed",
+          "phase": "Phase 2",
+          "sponsor": "Tanta University",
+          "locations": [
+            "Egypt"
+          ],
+          "start_date": "2020-06-16",
+          "end_date": "2020-12-01"
+        },
+        {
+          "trial_id": "NCT04582266",
+          "title": "Pharmacokinetics and Safety of Remdesivir for Treatment of COVID-19 in Pregnant and Non-Pregnant Women in the United States",
+          "status": "Completed",
+          "phase": "Observational",
+          "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)",
           "locations": [
             "United States"
           ],
-          "start_date": "2018-02-14",
-          "end_date": "2018-12"
+          "start_date": "2021-03-31",
+          "end_date": "2022-04-13"
         },
         {
-          "trial_id": "NCT01616381",
-          "title": "Sildenafil in Heart Failure (SilHF); An Investigator Initiated Multinational Randomized Controlled Clinical Trial.",
+          "trial_id": "NCT04560231",
+          "title": "Is Remdesivir a Possible Therapeutic Option for SARS-CoV-2 : An Interventional Study",
           "status": "Active",
-          "phase": "Phase 3",
-          "sponsor": "Helse Stavanger HF",
+          "phase": "EARLY_Phase 1",
+          "sponsor": "Lahore General Hospital",
           "locations": [
-            "Israel",
-            "Italy",
-            "Norway",
-            "United Kingdom"
+            "Pakistan"
           ],
-          "start_date": "2013-03",
-          "end_date": "2019-12"
-        },
-        {
-          "trial_id": "NCT01582438",
-          "title": "A Local, Multicentre, Open Label Access Study, To Provide Sildenafil Therapy For Subjects Who Completed A1481156 Study And Are Judged By The Investigator To Derive Clinical Benefit From Continued Treatment With Sildenafil For Subjects In India",
-          "status": "Active",
-          "phase": "Unknown",
-          "sponsor": "Pfizer's Upjohn has merged with Mylan to form Viatris Inc.",
-          "locations": [
-            "India"
-          ],
-          "start_date": "Not available",
-          "end_date": "Not available"
-        },
-        {
-          "trial_id": "NCT03053739",
-          "title": "Randomized Controlled Trial to Compare the Efficacy of Combination Therapy vs Monotherapy for Pulmonary Arterial Hypertension in Systemic Sclerosis",
-          "status": "Active",
-          "phase": "Phase 4",
-          "sponsor": "Post Graduate Institute of Medical Education and Research, Chandigarh",
-          "locations": [
-            "India"
-          ],
-          "start_date": "2016-12",
-          "end_date": "2017-12"
+          "start_date": "2020-06-01",
+          "end_date": "2020-11-30"
         }
       ],
       "notes": "Parsed deterministically from ClinicalTrials.gov"
